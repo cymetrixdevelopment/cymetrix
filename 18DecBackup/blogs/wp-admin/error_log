@@ -1,0 +1,23 @@
+[24-Dec-2022 08:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cymetrix/public_html/blogs/wp-admin/includes/template.php:2584) in /home3/cymetrix/public_html/blogs/wp-includes/pluggable.php on line 1416
+[24-Dec-2022 08:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cymetrix/public_html/blogs/wp-admin/includes/template.php:2584) in /home3/cymetrix/public_html/blogs/wp-includes/pluggable.php on line 1419
+[24-Dec-2022 08:31:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cymetrix/public_html/blogs/wp-admin/includes/template.php:2584) in /home3/cymetrix/public_html/blogs/wp-includes/pluggable.php on line 1416
+[24-Dec-2022 08:31:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/cymetrix/public_html/blogs/wp-admin/includes/template.php:2584) in /home3/cymetrix/public_html/blogs/wp-includes/pluggable.php on line 1419
+[24-Dec-2022 08:36:15 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[24-Dec-2022 08:36:15 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[25-Dec-2022 08:33:13 UTC] PHP Warning:  Undefined array key "data" in /home3/cymetrix/public_html/blogs/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 171
+[25-Dec-2022 08:56:15 UTC] PHP Warning:  Attempt to read property "title" on null in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-customize-widgets.php on line 900
+[27-Dec-2022 13:47:28 UTC] PHP Warning:  Attempt to read property "title" on null in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-customize-widgets.php on line 900
+[27-Dec-2022 13:52:31 UTC] PHP Warning:  Attempt to read property "title" on null in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-customize-widgets.php on line 900
+[29-Dec-2022 14:17:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-list-util.php on line 168
+[29-Dec-2022 14:17:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-list-util.php on line 168
+[29-Dec-2022 14:17:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-list-util.php on line 168
+[29-Dec-2022 14:17:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-list-util.php on line 168
+[04-Jan-2023 08:30:05 UTC] PHP Warning:  Undefined array key "user" in /home3/cymetrix/public_html/blogs/wp-content/plugins/elementor/core/common/modules/connect/module.php on line 230
+[04-Jan-2023 08:30:05 UTC] PHP Warning:  Attempt to read property "email" on null in /home3/cymetrix/public_html/blogs/wp-content/plugins/elementor/core/common/modules/connect/module.php on line 230
+[02-Nov-2023 13:13:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_print_media_templates' not found or invalid function name in /home3/cymetrix/public_html/blogs/wp-includes/class-wp-hook.php on line 310
