@@ -1,0 +1,8 @@
+[07-Jul-2023 16:33:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/cymetrix/public_html/blogs/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/cymetrix/public_html/blogs/wp-admin/includes/admin.php on line 16
+[07-Jul-2023 16:33:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/cymetrix/public_html/blogs/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/cymetrix/public_html/blogs/wp-admin/includes/admin.php on line 16
