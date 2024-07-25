@@ -1,0 +1,24 @@
+[11-Apr-2018 07:37:08 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 77824 bytes) in /home/ubuyadmin/public_html/CYMETRIXSOFT.COM/blog/wp-includes/functions.php on line 3170
+[19-Apr-2018 12:12:11 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 77824 bytes) in /home/ubuyadmin/public_html/CYMETRIXSOFT.COM/blog/wp-includes/functions.php on line 3170
+[15-May-2018 11:37:45 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/ubuyadmin/public_html/CYMETRIXSOFT.COM/blog/wp-includes/class-wp-query.php on line 840
+[15-May-2018 11:38:24 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/ubuyadmin/public_html/CYMETRIXSOFT.COM/blog/wp-includes/class-wp-query.php on line 840
+[03-Feb-2020 12:04:15 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT comment_post_ID, COUNT(comment_ID) as num_comments FROM cb_comments WHERE comment_post_ID IN ( '1300', '1297', '1294', '1291', '1279', '1255', '1236', '1214', '1205', '1180', '1157', '1145', '1108', '1088', '1055', '1050', '995', '984', '976', '968', '943', '919', '911', '895', '872', '857', '160', '143', '136', '120', '780', '67', '45', '20' ) AND comment_approved = '0' GROUP BY comment_post_ID made by WP_List_Table->display, WP_List_Table->display_rows_or_placeholder, WP_Posts_List_Table->display_rows, WP_Posts_List_Table->_display_rows, get_pending_comments_num
+[03-Feb-2020 12:08:15 UTC] WordPress database error Lost connection to MySQL server during query for query 
+					SELECT comment_approved, COUNT(*) AS num_comments
+					FROM cb_comments
+					WHERE comment_type NOT IN ('order_note', 'webhook_delivery')
+					GROUP BY comment_approved
+				 made by require_once('wp-admin/admin.php'), require('wp-admin/menu.php'), wp_count_comments, apply_filters('wp_count_comments'), WP_Hook->apply_filters, call_user_func_array, WC_Comments::wp_count_comments
+[03-Feb-2020 12:31:29 UTC] WordPress database error Lost connection to MySQL server during query for query 
+					SELECT comment_approved, COUNT(*) AS num_comments
+					FROM cb_comments
+					WHERE comment_type NOT IN ('order_note', 'webhook_delivery')
+					GROUP BY comment_approved
+				 made by require_once('wp-admin/admin.php'), require('wp-admin/menu.php'), wp_count_comments, apply_filters('wp_count_comments'), WP_Hook->apply_filters, call_user_func_array, WC_Comments::wp_count_comments
+[03-Feb-2020 13:03:16 UTC] WordPress database error Lost connection to MySQL server during query for query 
+					SELECT comment_approved, COUNT(*) AS num_comments
+					FROM cb_comments
+					WHERE comment_type NOT IN ('order_note', 'webhook_delivery')
+					GROUP BY comment_approved
+				 made by require_once('wp-admin/admin.php'), require('wp-admin/menu.php'), wp_count_comments, apply_filters('wp_count_comments'), WP_Hook->apply_filters, call_user_func_array, WC_Comments::wp_count_comments
+[14-Aug-2020 09:07:27 UTC] PHP Warning:  unlink(/home/ubuyadmin/public_html/CYMETRIXSOFT.COM/blog/wp-content/uploads/2018/05/04A971D8-279E-4C6A-BFCB-387E95BBB42E-e1597396035825-680x496_c.jpeg): No such file or directory in /home/ubuyadmin/public_html/CYMETRIXSOFT.COM/blog/wp-content/themes/yaaburnee-themes/functions/resize.php on line 261
